@@ -4,7 +4,7 @@ import streamlit as st
 
 st.header('Información de vehículos')
 
-data = pd.read_csv('../vehicles_us.csv') # leer los datos
+data = pd.read_csv('./vehicles_us.csv') # leer los datos
 
 hist_checkbox = st.checkbox('Construir histograma para la columna de odómetro') # crear una casilla de verificación
         
